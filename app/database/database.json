@@ -1,0 +1,298 @@
+{
+  "user": [
+    {
+      "email": "adliarindra27@gmail.com",
+      "first_name": "Adli",
+      "last_name": "Arindra",
+      "date_of_birth": "2004-05-20",
+      "gender": "male",
+      "country": "Indonesia"
+    }
+  ],
+  "intake_history": [],
+  "intent": [
+    {
+      "email": "adliarindra27@gmail.com",
+      "weight_goal": 65.0,
+      "general_goal": "lose fat",
+      "rdi": 2100.0
+    }
+  ],
+  "health_record": [
+    {
+      "email": "adliarindra27@gmail.com",
+      "weight": 90.0,
+      "height": 175.0,
+      "food_allergies": "peanuts, shrimps",
+      "daily_exercises": "jogging",
+      "daily_activities": "working from home",
+      "medical_record": "none"
+    }
+  ],
+  "session": [
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:25:42.209638",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    "
+        },
+        {
+          "role": "user",
+          "content": "who am I ?"
+        },
+        {
+          "role": "assistant",
+          "content": "You're a user seeking health-related advice or information, and I'm here to help with that! If you have any questions about health, wellness, symptoms, or treatments, feel free to ask. Let me know how I can assist you today!"
+        },
+        {
+          "role": "assistant",
+          "content": "You're a user seeking health-related advice or information, and I'm here to help with that! If you have any questions about health, wellness, symptoms, or treatments, feel free to ask. Let me know how I can assist you today!"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:28:37.975840",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    "
+        },
+        {
+          "role": "user",
+          "content": "who am I ?"
+        },
+        {
+          "role": "assistant",
+          "content": "You're someone seeking health-related advice or information, and I'm here to help with that! Whether it's about nutrition, fitness, mental health, or general wellness, feel free to ask. If you'd like personalized tips, share more about your health goals or concerns. How can I assist you today?"
+        },
+        {
+          "role": "assistant",
+          "content": "You're someone seeking health-related advice or information, and I'm here to help with that! Whether it's about nutrition, fitness, mental health, or general wellness, feel free to ask. If you'd like personalized tips, share more about your health goals or concerns. How can I assist you today?"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:34:17.257926",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 70.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "who am I ?"
+        },
+        {
+          "role": "assistant",
+          "content": "You're Adli Arindra, a 19-year-old male from Indonesia. You weigh 70 kg, stand 175 cm tall, and have a peanut allergy. Your goal is to lose fat and reach 65 kg. You work from home, jog regularly, and your recommended daily calorie intake is 2100 kcal. Let me know how I can help!"
+        },
+        {
+          "role": "assistant",
+          "content": "You're Adli Arindra, a 19-year-old male from Indonesia. You weigh 70 kg, stand 175 cm tall, and have a peanut allergy. Your goal is to lose fat and reach 65 kg. You work from home, jog regularly, and your recommended daily calorie intake is 2100 kcal. Let me know how I can help!"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:37:03.348355",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 70.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "For the following message, I want to change my weight. My previous weight is 70.0 kg. Please answer with the new weight only, as a float in kg.\n\nyou're incorrect, my weight is actually 90kg"
+        },
+        {
+          "role": "assistant",
+          "content": "90.0"
+        },
+        {
+          "role": "assistant",
+          "content": "90.0"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:37:24.104781",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "what are my allergies ?"
+        },
+        {
+          "role": "assistant",
+          "content": "You have a food allergy to peanuts, Adli. Be sure to avoid peanuts and check food labels carefully to prevent any allergic reactions. Let me know if you need help identifying peanut-free foods!"
+        },
+        {
+          "role": "assistant",
+          "content": "You have a food allergy to peanuts, Adli. Be sure to avoid peanuts and check food labels carefully to prevent any allergic reactions. Let me know if you need help identifying peanut-free foods!"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:37:46.755687",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "For the following message, I want to update my food allergies information. My previous data was: peanuts. Please answer with the updated allergies only as a string.\n\nI'm also allergic to shrimps"
+        },
+        {
+          "role": "assistant",
+          "content": "peanuts, shrimps"
+        },
+        {
+          "role": "assistant",
+          "content": "peanuts, shrimps"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:38:18.514598",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts, shrimps. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "can I eat sushi ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Adli, you can eat sushi, but be cautious about ingredients. Since you're allergic to shrimp, avoid sushi containing shrimp or peanut-based sauces. Opt for fish like salmon or tuna, or vegetarian options. Stick to moderate portions to align with your weight loss goal. Enjoy it as part of your balanced diet!"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Adli, you can eat sushi, but be cautious about ingredients. Since you're allergic to shrimp, avoid sushi containing shrimp or peanut-based sauces. Opt for fish like salmon or tuna, or vegetarian options. Stick to moderate portions to align with your weight loss goal. Enjoy it as part of your balanced diet!"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:41:54.528303",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts, shrimps. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "can I eat sushi ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, you can eat sushi, Adli! Just avoid types with shrimp due to your allergy. Opt for salmon, tuna, or vegetable rolls. Sushi can be a healthy choice if you watch portion sizes and avoid excessive mayo or fried toppings. Stick to 1-2 rolls (about 300-500 kcal) to stay within your RDI."
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, you can eat sushi, Adli! Just avoid types with shrimp due to your allergy. Opt for salmon, tuna, or vegetable rolls. Sushi can be a healthy choice if you watch portion sizes and avoid excessive mayo or fried toppings. Stick to 1-2 rolls (about 300-500 kcal) to stay within your RDI."
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:42:24.476652",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts, shrimps. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "can I eat sushi ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, you can eat sushi, Adli! Just avoid sushi with peanuts or shrimp due to your allergies. Opt for options like salmon, tuna, or vegetable rolls. Sushi can be a healthy choice if you watch portion sizes and avoid excessive mayo or fried toppings. Stick to 1-2 rolls to stay within your calorie goals."
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, you can eat sushi, Adli! Just avoid sushi with peanuts or shrimp due to your allergies. Opt for options like salmon, tuna, or vegetable rolls. Sushi can be a healthy choice if you watch portion sizes and avoid excessive mayo or fried toppings. Stick to 1-2 rolls to stay within your calorie goals."
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:43:09.988524",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot. You are a health assistant.\n    Answer all the questions related to health only. Be as helpful as possible.\n    Also act as if you know everything about health and that your accuracy is almost perfect.\n    But if you don't know the answer, don't be afraid to say that you don't know for sure.\n    Do not answer with texts that are too long, but rather give short and concise answers.\n    Give answers in paragraphs only, maximum of about 50 words each as if you are chatting with the user.\n    Only answer it with a long text if it is absolutely necessary.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts, shrimps. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "can I eat sushi ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, you can eat sushi, Adli! Just be cautious about ingredients. Avoid sushi with peanuts or shrimp due to your allergies. Opt for options like salmon, tuna, or cucumber rolls. Sushi can be a healthy choice if you watch portion sizes and avoid excessive mayo or fried toppings. Enjoy in moderation!"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, you can eat sushi, Adli! Just be cautious about ingredients. Avoid sushi with peanuts or shrimp due to your allergies. Opt for options like salmon, tuna, or cucumber rolls. Sushi can be a healthy choice if you watch portion sizes and avoid excessive mayo or fried toppings. Enjoy in moderation!"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:44:18.609469",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot, a highly knowledgeable health assistant.\n    Answer only health-related questions. Be helpful, confident, and concise.\n    Keep responses under 50 words unless absolutely necessary.\n    If unsure, say so. Use short paragraphs like you're chatting.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts, shrimps. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "can I eat sushi ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Adli, you can eat sushi, but avoid shrimp due to your allergy. Opt for fish like salmon or tuna, and watch portions to stay within your 2100 kcal goal. Avoid tempura or mayo-based rolls to keep it healthy. Enjoy in moderation! \ud83c\udf63"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Adli, you can eat sushi, but avoid shrimp due to your allergy. Opt for fish like salmon or tuna, and watch portions to stay within your 2100 kcal goal. Avoid tempura or mayo-based rolls to keep it healthy. Enjoy in moderation! \ud83c\udf63"
+        }
+      ]
+    },
+    {
+      "email": "adliarindra27@gmail.com",
+      "date": "2025-04-12T02:45:28.417789",
+      "messages": [
+        {
+          "role": "system",
+          "content": "\n    Your name is JoniBot, a highly knowledgeable health assistant.\n    Answer only health-related questions. Be helpful, confident, and concise.\n    Keep responses under 50 words unless absolutely necessary.\n    If unsure, say so. Use short paragraphs like you're chatting.\n    \nThe user's name is Adli Arindra. They were born on 2004-05-20, identify as male, and are from Indonesia. Their registered email is adliarindra27@gmail.com.\n\nThe user with email adliarindra27@gmail.com has a weight of 90.0 kilograms and a height of 175.0 centimeters. They have the following food allergies: peanuts, shrimps. Their daily exercises include: jogging, and their daily activities are: working from home. Their medical record contains the following notes: none.\n\nThe user with email adliarindra27@gmail.com has a goal to reach a weight of 65.0 kilograms. Their general goal is: lose fat. Their recommended daily intake (RDI) is 2100.0 kilocalories.\n"
+        },
+        {
+          "role": "user",
+          "content": "can I eat sushi ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Adli, you can eat sushi! Just avoid shrimp-based sushi due to your allergy. Opt for salmon, tuna, or veggie rolls. Watch portion sizes to stay within your 2100 kcal goal. Sushi rice has sugar, so moderation helps with fat loss. Enjoy! \ud83c\udf63"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Adli, you can eat sushi! Just avoid shrimp-based sushi due to your allergy. Opt for salmon, tuna, or veggie rolls. Watch portion sizes to stay within your 2100 kcal goal. Sushi rice has sugar, so moderation helps with fat loss. Enjoy! \ud83c\udf63"
+        }
+      ]
+    }
+  ]
+}
