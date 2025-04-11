@@ -3,7 +3,8 @@ from app.services.database_handler import DatabaseHandler
 
 possible_intentions = [
     "ask only", "change weight", "change height", "update allergies",
-    "update activities", "update medical records", "update weight goal", "update general goal"
+    "update activities", "update medical records", "update weight goal", "update general goal",
+    "update their food intake"
 ]
 
 intent_system_prompt = f'''
@@ -26,6 +27,7 @@ class IntentPredictor:
     def intent_prompt(intentIdx: int, email: str):
         record = DatabaseHandler.find_health_record(email)
         intent = DatabaseHandler.find_intent(email)
+        intake = DatabaseHandler.find_intake(email)
 
         match intentIdx:
             case 0:
@@ -71,6 +73,15 @@ class IntentPredictor:
                     f"For the following message, I want to change my general goal. "
                     f"My current goal is: {intent.general_goal}. "
                     f"Please answer with the new goal only as a string."
+                )
+            case 8:
+                return (
+                    f"For the following message, I want to update my food and calorie intake. "
+                    f"The foods that I have eaten today are: {intake.foods}. "
+                    f"My current intake are: carbohydrate {intake.carbohydrate} kcal, protein {intake.protein} kcal, and fat {intake.fat} kcal"
+                    "Please answer with the format:"
+                    '{"foods":["food1","food2"],"protein":130,"fat":130,"carbohydrate":250'
+                    "Do not add any sentence outside of the curly brackets. Please add the new food to the foods array, and sum up the total of calories."
                 )
             case _:
                 return "Invalid intent index."

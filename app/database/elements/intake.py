@@ -46,8 +46,10 @@ class IntakeHistory:
                 f"\nThere are currently no food intake records available for the user with email {self.email}. "
                 "This means the user has not logged any meals, calories, or food data yet.\n"
             )
-
-        latest = max(self.intakes, key=lambda i: i.date)
+        latest = max(
+            self.intakes,
+            key=lambda i: i.date
+        )
         foods = ', '.join(latest.foods)
         total_kcal = latest.protein + latest.carbohydrate + latest.fat
 

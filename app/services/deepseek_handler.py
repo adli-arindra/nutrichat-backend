@@ -67,7 +67,7 @@ async def calculate_rdi(
         raise ValueError(f"Invalid response for RDI: {response}")
 
 class Deepseek:
-    async def send(message: str, email: str):
+    async def send(message: str, email: str, temperature: float = 0.7):
         session = DatabaseHandler.find_session(email)
         if (session is None):
             session = Session(email)
@@ -75,17 +75,17 @@ class Deepseek:
             DatabaseHandler.session.append(session)
         
         session.add_user_prompt(message)
-        response = await Deepseek._send_messages(session)
+        response = await Deepseek._send_messages(session, temperature)
         session.add_assisant_response(response)
         DatabaseHandler.save()
         return response
 
-    async def _send_messages(session: Session) -> None:
+    async def _send_messages(session: Session, temperature: float) -> None:
         messages = session.messages
         if not messages:
             raise ValueError("No messages to send.")
 
-        response = await send(messages)
+        response = await send(messages, temperature)
         messages.append({"role": "assistant", "content": response})
         return response
     

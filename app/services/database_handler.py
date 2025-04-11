@@ -1,6 +1,6 @@
 from datetime import datetime
 from app.database.elements.health_record import HealthRecord
-from app.database.elements.intake import IntakeHistory
+from app.database.elements.intake import Intake, IntakeHistory
 from app.database.elements.session import Session
 from app.database.elements.intent import Intent
 from app.database.elements.user import User
@@ -52,7 +52,27 @@ class DatabaseHandler:
         for history in DatabaseHandler.intake_history:
             if history.email == email:
                 return history
-        return None
+        new_history = IntakeHistory(email, [])
+        DatabaseHandler.intake_history.append(new_history)
+        return new_history
+    
+    @staticmethod
+    def find_intake(email: str) -> Intake:
+        intake_history = DatabaseHandler.find_intake_history(email)
+        for intake in intake_history.intakes:
+            if intake.date == datetime.now().date():
+                return intake
+        new_intake = Intake(
+            datetime.now().date(),
+            0,
+            0,
+            0,
+            []
+        )
+
+        intake_history.intakes.append(new_intake)
+        return new_intake
+        
     
     @staticmethod
     def find_intent(email: str) -> Intent:
@@ -103,17 +123,24 @@ class JSONHelper:
             data = JSONHelper.import_json(f.read())
 
         DatabaseHandler.user = [User(**u) for u in data.get("user", [])]
+
         DatabaseHandler.intake_history = [
             IntakeHistory(
                 email=ih["email"],
-                intakes=[DatabaseHandler.Intake(**i) for i in ih.get("intakes", [])]
+                intakes=[
+                    Intake(
+                        **{**i, "date": datetime.fromisoformat(i["date"])}
+                    ) for i in ih.get("intakes", [])
+                ]
             ) for ih in data.get("intake_history", [])
         ]
+
         DatabaseHandler.intent = [Intent(**i) for i in data.get("intent", [])]
         DatabaseHandler.health_record = [HealthRecord(**hr) for hr in data.get("health_record", [])]
         DatabaseHandler.session = [
             JSONHelper._load_session(s) for s in data.get("session", [])
         ]
+
 
     @staticmethod
     def _default_serializer(obj):
