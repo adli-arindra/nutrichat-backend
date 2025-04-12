@@ -2,9 +2,15 @@ from app.services.deepseek_handler import send
 from app.services.database_handler import DatabaseHandler
 
 possible_intentions = [
-    "ask only", "change weight", "change height", "update allergies",
-    "update activities", "update medical records", "update weight goal", "update general goal",
-    "update their food intake"
+    "asking only (e.g. asking about food nutrition, what food to eat, etc)",
+    "change weight",
+    "change height",
+    "update allergies",
+    "update activities",
+    "update medical records",
+    "update weight goal",
+    "update general goal",
+    "telling you what food they eat with the intention to log their food. Be aware this occurs rarely and only answer this if you are confident."
 ]
 
 intent_system_prompt = f'''
@@ -20,7 +26,7 @@ class IntentPredictor:
         respond = await send([
             {"role": "system", "content": intent_system_prompt},
             {"role": "user", "content": message}
-        ])
+        ], 0)
         return int(respond)
     
     @staticmethod

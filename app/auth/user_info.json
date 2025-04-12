@@ -1,6 +1,14 @@
 [
   {
-    "email": "adliarindra27@gmail.com",
-    "password": "123456"
+    "email": "viktor@gmail.com",
+    "password": "viktor123"
+  },
+  {
+    "email": "",
+    "password": ""
+  },
+  {
+    "email": "tes@gmail.com",
+    "password": "tes123"
   }
 ]

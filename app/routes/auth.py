@@ -59,9 +59,6 @@ class InitializationRequest(BaseModel):
 @router.post("/initialize")
 async def initialize_user(data: InitializationRequest):
     # --- User ---
-    if DatabaseHandler.find_user(data.email):
-        raise HTTPException(status_code=400, detail="User already exists.")
-    
     new_user = User(
         email=data.email,
         first_name=data.first_name,
@@ -101,5 +98,6 @@ async def initialize_user(data: InitializationRequest):
         rdi=rdi
     )
     DatabaseHandler.intent.append(new_intent)
+    DatabaseHandler.save()
 
     return {"message": "User, health record, intent, and intake initialized successfully."}
